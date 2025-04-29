@@ -2,40 +2,65 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Employee Table</title>
+  <title>New Hires Dashboard</title>
   <style>
-    body { font-family: Arial, sans-serif; padding: 20px; }
-    table { border-collapse: collapse; width: 100%; }
-    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
-    th { background-color: #f2f2f2; }
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h2 {
+      color: #333;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #f4f4f4;
+    }
+    .yes {
+      color: green;
+      font-weight: bold;
+    }
+    .no {
+      color: red;
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
-  <h2>Employee Information</h2>
+  <h2>New Hires Dashboard</h2>
   <table>
     <thead>
       <tr>
+        <th>Name</th>
         <th>Title</th>
         <th>Start Date</th>
-        <th>Status</th>
+        <th>Added to Master</th>
+        <th>Emailed Manager</th>
+        <th>Schedule 6 Check-ins w/ BR</th>
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>Product Manager</td>
-        <td>January 8, 2024</td>
-        <td>Y</td>
-      </tr>
-      <tr>
-        <td>Senior Software Engineer</td>
-        <td>March 18, 2024</td>
-        <td>N</td>
-      </tr>
-      <tr>
-        <td>Cloud Solutions Architect</td>
-        <td>February 5, 2024</td>
-        <td>Y</td>
-      </tr>
+      <tr><td>Sally Mally</td><td>Marketing Manager</td><td>1/1/2024</td><td class="yes">Y</td><td class="yes">Y</td><td class="yes">Y</td></tr>
+      <tr><td>Justin Yenser</td><td>Product Manager</td><td>8-Jan-24</td><td class="yes">Y</td><td class="yes">Y</td><td class="yes">Y</td></tr>
+      <tr><td>Kirat Singh</td><td>Senior Software Engineer</td><td>18-Mar-24</td><td class="no">N</td><td class="no">N</td><td class="no">N</td></tr>
+      <tr><td>Ava Morales</td><td>Cloud Solutions Architect</td><td>5-Feb-24</td><td class="yes">Y</td><td class="yes">Y</td><td class="yes">Y</td></tr>
+      <tr><td>Liam Chen</td><td>UX Designer</td><td>1-Apr-24</td><td class="no">N</td><td class="no">N</td><td class="no">N</td></tr>
+      <tr><td>Sanjay Patel</td><td>Data Analyst</td><td>13-May-24</td><td class="yes">Y</td><td class="yes">Y</td><td class="yes">Y</td></tr>
+      <tr><td>Nora Kim</td><td>Marketing Director</td><td>22-Jul-24</td><td class="yes">Y</td><td class="yes">Y</td><td class="yes">Y</td></tr>
+      <tr><td>Marcus Thompson</td><td>DevOps Engineer</td><td>3-Jun-24</td><td class="yes">Y</td><td class="yes">Y</td><td class="yes">Y</td></tr>
+      <tr><td>Elena Rossi</td><td>AI Research Scientist</td><td>12-Aug-24</td><td class="no">N</td><td class="no">N</td><td class="no">N</td></tr>
+      <tr><td>Tariq Al-Fayeed</td><td>Customer Success Manager</td><td>30-Sep-24</td><td class="yes">Y</td><td class="yes">Y</td><td class="yes">Y</td></tr>
+      <tr><td>Mei-Ling Zhang</td><td>Finance Business Partner</td><td>4-Nov-24</td><td class="yes">Y</td><td class="yes">Y</td><td class="yes">Y</td></tr>
+      <tr><td>Diego Fernandez</td><td>Marketing Manager</td><td>30-Sep-24</td><td class="no">N</td><td class="no">N</td><td class="no">N</td></tr>
+      <tr><td>Freya Johansson</td><td>UX Designer</td><td>4-Nov-24</td><td class="no">N</td><td class="no">N</td><td class="no">N</td></tr>
     </tbody>
   </table>
 </body>
